@@ -6,6 +6,8 @@ For convexity and timing value calculation for CMS rates, Hull-White formula wit
 
 This swap has same payment structure as in the floating leg of CMS swap and its value is derived from the forward swap rate t f as the internal rate of return. The swap rate is calculated at the beginning of payment period. Both convexity and timing adjustment are required. 
 
-The swap rate is calculated at the end of payment period (see coupon payment https://finpricing.com/lib/FiBondCoupon.html). Only convexity adjustment is required since the swap rate is calculated and paid at the same time. Sensitivity of CMS swap pricing to LIBOR curve is available in Partial Differential Hedge (PDH) report. These sensitivities are Two-Way Delta and defined.
+The swap rate is calculated at the end of payment period. Only convexity adjustment is required since the swap rate is calculated and paid at the same time. Sensitivity of CMS swap pricing to LIBOR curve is available in Partial Differential Hedge (PDH) report. These sensitivities are Two-Way Delta and defined.
 
+Reference:
 
+https://finpricing.com/FinPricing-ProductBrochure.pdf
